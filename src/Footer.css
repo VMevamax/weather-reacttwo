@@ -1,0 +1,17 @@
+footer {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.credit-link {
+  color: black;
+  text-decoration: none;
+}
+
+.credit-link:hover {
+  color: blue;
+  transition: all 500ms ease-in-out;
+}
