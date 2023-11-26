@@ -1,4 +1,3 @@
-
 :root {
   --primary-color: #9bbfc8;
   --primary-color-dark: #13547a;
@@ -10,15 +9,19 @@
 body {
   background: linear-gradient(15deg, #d4ef88 0%, #4ce8d4 100%);
   font-family: var(--primary-font-family);
+  text-align: center;
   margin: 50px;
   overflow: hidden;
   text-transform: lowercase;
+  display: flex;
+  justify-content: center;
 }
 
 ul {
   background: rgba(123, 208, 248, 0.5);
   border-radius: 50px;
   box-shadow: var(--box-shadow);
-  max-width: 180px;
+  max-width: 350px;
   padding: 40px;
+  font-size: 25px;
 }
