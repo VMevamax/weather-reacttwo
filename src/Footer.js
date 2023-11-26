@@ -16,7 +16,7 @@ export default function Footer() {
         by <strong>VM</strong> hosted on{" "}
         <a
           className="credit-link"
-          href="https://github.com/VMevamax/weather-reacttwo"
+          href="https://unrivaled-pudding-6b28d9.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
