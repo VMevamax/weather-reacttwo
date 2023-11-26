@@ -16,7 +16,9 @@ body {
   display: flex;
   justify-content: center;
 }
-
+.search-bar {
+  align-content: center;
+}
 ul {
   background: rgba(123, 208, 248, 0.5);
   border-radius: 50px;
