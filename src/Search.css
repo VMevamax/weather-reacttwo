@@ -1,13 +1,23 @@
-.Weather {
-  font-family: sans-serif;
-  text-align: center;
+:root {
+  --primary-color: #9bbfc8;
+  --primary-color-dark: #13547a;
+  --primary-color-light: whitesmoke;
+  --primary-font-family: "Grenze Gotisch", cursive;
+  --box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.1);
 }
-div {
-  display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+
+body {
+  background: linear-gradient(15deg, #d7f67b 0%, #4ce8d4 100%);
+  font-family: var(--primary-font-family);
+  margin: 50px;
+  overflow: hidden;
+  text-transform: lowercase;
+}
+
+ul {
+  background: rgba(123, 208, 248, 0.5);
+  border-radius: 50px;
+  box-shadow: var(--box-shadow);
+  max-width: 180px;
+  padding: 40px;
 }
