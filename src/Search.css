@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(15deg, #d7f67b 0%, #4ce8d4 100%);
+  background: linear-gradient(15deg, #d4ef88 0%, #4ce8d4 100%);
   font-family: var(--primary-font-family);
   margin: 50px;
   overflow: hidden;
